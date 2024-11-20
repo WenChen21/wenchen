@@ -69,8 +69,8 @@ export default function Home() {
                 <p className="text-white text-[16px] text-center">
                   An organization for likeminded web developers who want to
                   create amazing web projects. Taught workshops to students
-                  about HTML, CSS, and Javascript. Worked on projects that had
-                  impacts.
+                  about HTML, CSS, and Javascript. Worked on projects that
+                  benefited the Cornell community.
                 </p>
               </div>
             </div>

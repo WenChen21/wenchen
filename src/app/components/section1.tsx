@@ -12,20 +12,23 @@ function Section1() {
             <div className="flex justify-center mt-[10%]">
               <p className="text-[16px] text-center  text-white font-sans font-semibold break-words w-2/3">
                 Hi my name is Wen! I am a senior studying computer science at
-                Cornell
+                Cornell. Outside of class I enjoy playing board games such as
+                chess and Catan. I like running and playing pickleball.
               </p>
             </div>
+            {/* <div className="flex">
+              <Image src={"/catan.png"} alt="catan" width={200} height={200} />
+              <Image src={"/chess.webp"} alt="chess" width={200} height={200} />
+            </div> */}
           </div>
 
-          <div>
-            <Image
-              alt="image"
-              src={"/wenchen.jpg"}
-              width={200}
-              height={200}
-              className="rounded-full"
-            />
-          </div>
+          <Image
+            alt="image"
+            src={"/wenchen.jpg"}
+            width={200}
+            height={200}
+            className="rounded-full"
+          />
         </div>
       </div>
     </div>

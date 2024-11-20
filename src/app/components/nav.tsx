@@ -14,9 +14,22 @@ const Nav: React.FC = () => {
   return (
     <div className="fixed right-0 top-0 h-screen text-base w-1/6 flex items-center justify-center bg-second">
       <div className="w-full text-center flex flex-col gap-y-10">
-        <p onClick={() => scrollToSectionById("section-1")}>About</p>
-        <p onClick={() => scrollToSectionById("section-2")}>Work Experience</p>
-        <p onClick={() => scrollToSectionById("section-3")}>
+        <p
+          className="hover:cursor-pointer"
+          onClick={() => scrollToSectionById("section-1")}
+        >
+          About
+        </p>
+        <p
+          className="hover:cursor-pointer"
+          onClick={() => scrollToSectionById("section-2")}
+        >
+          Work Experience
+        </p>
+        <p
+          className="hover:cursor-pointer"
+          onClick={() => scrollToSectionById("section-3")}
+        >
           Project Experience
         </p>
       </div>
