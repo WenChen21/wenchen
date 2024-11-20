@@ -61,9 +61,9 @@ export default function Home() {
                     Skills
                   </p>
                   <div className="flex gap-x-10">
-                    <FaJsSquare className="bg-yellow-500 text-[36px]" />
-                    <FaHtml5 className="bg-orange-500 text-[36px]" />
-                    <FaCss3Alt className="bg-blue-600 text-[36px]" />
+                    <FaJsSquare className="bg-yellow-500 text-[36px] text-black" />
+                    <FaHtml5 className="bg-orange-500 text-[36px text-black" />
+                    <FaCss3Alt className="bg-blue-600 text-[36px] text-black" />
                   </div>
                 </div>
                 <p className="text-white text-[16px] text-center">
