@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 function Section1() {
   return (
-    <div className="w-5/6 flex justify-center relative top-[10%]">
-      <div className="w-[70%] flex justify-center ">
+    <div className="flex justify-center relative top-[10%]">
+      <div className="w-full flex justify-center ">
         <div className="flex justify-around w-full">
-          <div className="">
+          <div className="w-2/3">
             <p className="text-[40px] text-center text-white font-sans font-semibold">
               Welcome
             </p>
@@ -16,19 +16,20 @@ function Section1() {
                 chess and Catan. I like running and playing pickleball.
               </p>
             </div>
-            {/* <div className="flex">
+            <div className="flex justify-center">
               <Image src={"/catan.png"} alt="catan" width={200} height={200} />
               <Image src={"/chess.webp"} alt="chess" width={200} height={200} />
-            </div> */}
+            </div>
           </div>
-
-          <Image
-            alt="image"
-            src={"/wenchen.jpg"}
-            width={200}
-            height={200}
-            className="rounded-full"
-          />
+          <div className="w-1/3">
+            <Image
+              alt="image"
+              src={"/wenchen.jpg"}
+              width={200}
+              height={200}
+              className="rounded-full"
+            />
+          </div>
         </div>
       </div>
     </div>
