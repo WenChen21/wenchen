@@ -21,8 +21,8 @@ function Projects() {
               <Image alt="image" src={"/roomie.png"} width={300} height={300} />
             </div>
             <p className="text-[18px] text-white font-sans font-semibold w-2/3">
-              This project is currently in development and has not been deployed
-              yet. You can check it out at the Github link below <br></br>
+              Roomie is currently in development and has not been deployed yet.
+              You can check it out at the Github link below <br></br>
               <a href="https://github.com/WenChen21/Roomie">
                 https://github.com/WenChen21/Roomie
               </a>
@@ -38,9 +38,9 @@ function Projects() {
               />
             </div>
             <p className="text-[18px] text-white font-sans font-semibold w-2/3">
-              This project has been deployed but the database may be disabled.
-              You can check it out at the Github link below and see a photo of
-              the end product below. <br></br>
+              Chirp has been deployed but the database may be disabled. You can
+              check it out at the Github link below and see a photo of the end
+              product below. <br></br>
               <a href="https://github.com/WenChen21/chirp">
                 https://github.com/WenChen21/chirp
               </a>
@@ -57,9 +57,9 @@ function Projects() {
               <Image alt="image" src={"/dog.png"} width={200} height={200} />
             </div>
             <p className="text-[18px] text-white font-sans font-semibold w-2/3">
-              Some of the things that I did while cleaning the data was getting rid of
-              some features that would not matter in the predict such as the
-              birthdate of the dog. In addition, some of the fields were not
+              Some of the things that I did while cleaning the data was getting
+              rid of some features that would not matter in the predict such as
+              the birthdate of the dog. In addition, some of the fields were not
               valid values so in the process of cleaning I had to figure out how
               to give these invalid values a reasonable value since the data
               might have been corrupted. Finally, I had to decide on the loss

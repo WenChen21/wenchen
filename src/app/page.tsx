@@ -59,7 +59,7 @@ export default function Home() {
               />
               <Projectdesc
                 image={"/chirplogo.png"}
-                text="An individual project that is a message board similar to Twitter,
+                text="Chirp is an individual project that is a message board similar to Twitter,
                 but only using emojis. Utilized the T3 stack, which includes TailwindCSS, 
                 Typescript, Prisma, TRPC, and PlanetScale. Worked on both the frontend and backend to create a 
                 dynamic and interactive web application. Throughout this project, I learned a 
