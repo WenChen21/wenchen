@@ -1,12 +1,9 @@
 "use client";
 import Nav from "./components/nav";
-import Image from "next/image";
 import Section1 from "./components/section1";
-import { FaJsSquare } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-
+import Projectdesc from "./components/projectdesc";
+import Link from "next/link";
+import { Button } from "@mui/material";
 export default function Home() {
   return (
     <div className="bg-main">
@@ -17,35 +14,7 @@ export default function Home() {
         >
           <Section1 />
           <div className="flex items-center flex-col mt-[5%]">
-            <div>
-              <div className="w-full min-h-[300px]">
-                <p className="text-[32px] text-center text-white font-sans font-bold">
-                  Education
-                </p>
-                <div className="flex gap-x-10 mt-[5%]">
-                  <div className="flex flex-col gap-y-4 w-2/5">
-                    <Image
-                      alt="cornell"
-                      src={"/cornell.png"}
-                      width={300}
-                      height={200}
-                    />
-                  </div>
-                  <div className="flex flex-col w-full justify-center items-center">
-                    <p className="text-white text-[16px] text-center font-bold w-3/5">
-                      Expected Graduation: May 2025
-                    </p>
-                    <p className="text-white text-[16px] text-center font-bold w-3/5">
-                      Major: Computer Science
-                    </p>
-                    <p className="text-white text-[16px] text-center font-bold w-3/5">
-                      Minor: Applied Economics
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-4/5 min-h-fit" id="section-2">
+            {/* <div className="w-4/5 min-h-fit" id="section-2">
               <p className="text-[32px] text-center text-white font-sans font-bold">
                 Work Experience
               </p>
@@ -72,63 +41,51 @@ export default function Home() {
                   Institute. Created and catered web interfaces for clients.
                 </p>
               </div>
-            </div>
-            <div className="w-4/5 min-h-screen" id="section-3">
+            </div> */}
+            <div className="w-4/5 min-h-screen mb-10" id="section-3">
               <p className="text-[32px] text-center text-white font-sans font-bold">
                 Project Experience
               </p>
-              <div className="flex gap-x-10 mt-[5%] w-full">
-                <div className="w-2/5">
-                  <div className="flex flex-col gap-y-4">
-                    <Image
-                      alt="experience 1"
-                      src={"/webdev.svg"}
-                      width={300}
-                      height={200}
-                    />
-                    <p className="text-white text-[16px] text-center font-bold">
-                      Skills
-                    </p>
-                    <div className="flex gap-x-10">
-                      <SiTypescript className="bg-blue-500 text-[36px] text-black" />
-                      <FaHtml5 className="bg-orange-500 text-[36px] text-black" />
-                      <FaCss3Alt className="bg-blue-600 text-[36px] text-black" />
-                    </div>
-                  </div>
-                </div>
-                <p className="text-white text-[16px] text-center font-semibold w-3/5">
-                  An organization for likeminded web developers who want to
-                  create amazing web projects. Taught workshops to students
-                  about HTML, CSS, and Javascript. Worked on projects that
-                  benefited the Cornell community.
-                </p>
-              </div>
-              <div className="flex gap-x-10 mt-[5%] w-full">
-                <div className="w-2/5">
-                  <div className="flex flex-col gap-y-4">
-                    <Image
-                      alt="experience 1"
-                      src={"/roomie.png"}
-                      width={300}
-                      height={200}
-                    />
-                    <p className="text-white text-[16px] text-center font-bold">
-                      Skills
-                    </p>
-                    <div className="flex gap-x-10">
-                      <FaJsSquare className="bg-yellow-500 text-[36px] text-black" />
-                      <FaHtml5 className="bg-orange-500 text-[36px] text-black" />
-                      <FaCss3Alt className="bg-blue-600 text-[36px] text-black" />
-                    </div>
-                  </div>
-                </div>
-                <p className="text-white text-[16px] text-center font-semibold w-3/5">
-                  Worked on a roommate matching service to match Cornell
-                  students who are looking for roommates and housing in one
-                  place. Utilizing Supabase, NodeJs, and ExpressJs to handle
-                  server calls and database requests, and Javascript, HTML, and
-                  TailwindCSS for frontend
-                </p>
+              {/* <Projectdesc
+                image={"/webdev.svg"}
+                text="An organization for likeminded web developers who want to create amazing
+                web projects. Taught workshops to students about HTML, CSS, and
+                Javascript. Worked on projects that benefited the Cornell community."
+              /> */}
+              <Projectdesc
+                image={"/roomie.png"}
+                text="Worked and developed a roommate matching service tailored for Cornell students, integrating both roommate and housing search functionalities into a single platform. The backend was implemented using Supabase, Node.js, and Express.js to manage server-side logic and database operations, while the frontend was built with JavaScript, HTML, and TailwindCSS to ensure a responsive and user-friendly interface. This project enhanced my technical skills in handling user authentication, crafting complex database queries, and designing a cohesive full-stack application that bridges the gap between backend services and the user interface."
+                skills={["Javascript", "HTML", "CSS"]}
+              />
+              <Projectdesc
+                image={"/chirplogo.png"}
+                text="An individual project that is a message board similar to Twitter,
+                but only using emojis. Utilized the T3 stack, which includes TailwindCSS, 
+                Typescript, Prisma, TRPC, and PlanetScale. Worked on both the frontend and backend to create a 
+                dynamic and interactive web application. Throughout this project, I learned a 
+                great deal about full-stack development, including handling the flow of information
+                between the frontend and backend. I gained valuable experience working with middleware, 
+                ensuring efficient data handling, and displaying the information seamlessly to users. Since completing this project, 
+                I have migrated the database from PlanetScale to Supabase from a MySQL database to a Postgresql database to be more
+                cost effective."
+                skills={["Typescript", "HTML", "CSS"]}
+              />
+              <Projectdesc
+                image={"/dog.png"}
+                text="For this class project, I independently developed a predictive model 
+                that incorporated machine learning techniques alongside rigorous data preprocessing 
+                and cleaning methods. The predictive model was trained on a dataset containing measurements of 
+                dog strides, and I utilized the Random Forest algorithm to train the model and tune 
+                the parameters to improve its performance. Through iterative optimization, I was able to 
+                reduce the error term and achieve a prediction accuracy of approximately 86%. 
+                This project provided me with valuable experience in the application of machine learning principles, 
+                including data preparation, model training, hyperparameter tuning, and performance assessment."
+                skills={["Python", "Scikit"]}
+              />
+              <div className="flex justify-center mt-10">
+                <Link href="/projects">
+                  <Button variant="contained">Learn More</Button>
+                </Link>
               </div>
             </div>
           </div>

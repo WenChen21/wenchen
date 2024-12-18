@@ -22,12 +22,6 @@ const Nav: React.FC = () => {
         </p>
         <p
           className="hover:cursor-pointer text-black"
-          onClick={() => scrollToSectionById("section-2")}
-        >
-          Work Experience
-        </p>
-        <p
-          className="hover:cursor-pointer text-black"
           onClick={() => scrollToSectionById("section-3")}
         >
           Project Experience

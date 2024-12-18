@@ -14,6 +14,19 @@ export default {
         main: "#08899D",
         second:"#FFF3DD",
       },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        fadeInLetterByLetter: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
+      animation: {
+        fadeIn: 'fadeIn 2s ease-in-out',
+      },
     },
   },
   plugins: [],
