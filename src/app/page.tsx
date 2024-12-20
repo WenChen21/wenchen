@@ -36,10 +36,7 @@ export default function Home() {
                     <FaCss3Alt className="bg-blue-600 text-[36px] text-black" />
                   </div>
                 </div>
-                <p className="text-white text-[16px] text-center font-bold w-3/5">
-                  Worked in the ELSYS division of Georgia Tech Research
-                  Institute. Created and catered web interfaces for clients.
-                </p>
+                
               </div>
             </div> */}
             <div className="w-4/5 min-h-screen mb-10" id="section-3">
@@ -82,7 +79,10 @@ export default function Home() {
                 including data preparation, model training, hyperparameter tuning, and performance assessment."
                 skills={["Python", "Scikit"]}
               />
-              <div className="flex justify-center mt-10">
+              <div className="flex flex-col justify-center mt-10 items-center gap-y-3">
+                <p className="text-white">
+                  To learn more about my projects, click the button below.
+                </p>
                 <Link href="/projects">
                   <Button variant="contained">Learn More</Button>
                 </Link>
