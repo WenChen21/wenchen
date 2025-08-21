@@ -14,8 +14,14 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Wen Chen's Portfolio Website",
-  description: "By Wen Chen",
+  title: "Wen Chen - Software Developer & Computer Science Student",
+  description: "Portfolio of Wen Chen, a Computer Science student at Cornell University specializing in full-stack development, machine learning, and software engineering.",
+  keywords: "Wen Chen, Software Developer, Computer Science, Cornell University, Full Stack Development, Machine Learning, TypeScript, React, Next.js",
+  openGraph: {
+    title: "Wen Chen - Software Developer Portfolio",
+    description: "Explore the projects and skills of Wen Chen, a passionate computer science student and full-stack developer.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "@mui/material";
 const DownloadResumeButton: React.FC = () => {
   const handleDownload = () => {
-    const resumeUrl = "/WenChenResume25Database.pdf";
+    const resumeUrl = "/WenChenResume.pdf";
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.download = "Resume.pdf";
