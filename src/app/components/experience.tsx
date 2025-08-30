@@ -4,32 +4,45 @@ import Image from "next/image";
 export default function Experience() {
   const experiences = [
     {
+      company: "Theralyze AI",
+      position: "UI Intern",
+      period: "Jun 2025 - Aug 2025",
+      location: "Ithaca, NY",
+      description:
+        "Assisted in teaching computer science courses, mentored students, and helped develop curriculum materials.",
+      logo: "/theralyze_logo.jpeg",
+      skills: ["Teaching", "Mentoring", "Curriculum Development"],
+    },
+    {
       company: "Georgia Tech Research Institute",
       position: "Research Assistant",
-      period: "Summer 2024",
+      period: "May 2023 - Aug 2023",
       location: "Atlanta, GA",
-      description: "Conducted research in advanced computing systems and contributed to innovative projects in technology development.",
+      description:
+        "Conducted research in advanced computing systems and contributed to innovative projects in technology development.",
       logo: "/gtrilogo.png",
-      skills: ["Research", "Data Analysis", "Technical Documentation"]
+      skills: ["Research", "Data Analysis", "Technical Documentation"],
     },
     {
       company: "Cornell University",
       position: "Teaching Assistant",
-      period: "2023 - Present",
-      location: "Ithaca, NY", 
-      description: "Assisted in teaching computer science courses, mentored students, and helped develop curriculum materials.",
-      logo: "/cornell.png",
-      skills: ["Teaching", "Mentoring", "Curriculum Development"]
-    },
-    {
-      company: "Cornell Web Development",
-      position: "Workshop Instructor",
-      period: "2022 - 2023",
+      period: "Dec 2024 - May 2025",
       location: "Ithaca, NY",
-      description: "Taught workshops to students about HTML, CSS, and JavaScript. Worked on projects that benefited the Cornell community.",
-      logo: "/webdev.svg",
-      skills: ["HTML", "CSS", "JavaScript", "Teaching"]
-    }
+      description:
+        "Assisted in teaching computer science courses, mentored students, and helped develop curriculum materials. Courses: CS 4320: Database Systems, CS 4450: Computer Networks",
+      logo: "/cornell.png",
+      skills: ["Teaching", "Mentoring", "Curriculum Development"],
+    },
+    // {
+    //   company: "Cornell Web Development",
+    //   position: "Workshop Instructor",
+    //   period: "2022 - 2023",
+    //   location: "Ithaca, NY",
+    //   description:
+    //     "Taught workshops to students about HTML, CSS, and JavaScript. Worked on projects that benefited the Cornell community.",
+    //   logo: "/webdev.svg",
+    //   skills: ["HTML", "CSS", "JavaScript", "Teaching"],
+    // },
   ];
 
   return (
@@ -63,11 +76,13 @@ export default function Experience() {
                     />
                   </div>
                   <div className="text-center">
-                    <p className="text-blue-400 text-sm font-medium">{exp.period}</p>
+                    <p className="text-blue-400 text-sm font-medium">
+                      {exp.period}
+                    </p>
                     <p className="text-gray-400 text-sm">{exp.location}</p>
                   </div>
                 </div>
-                
+
                 <div className="md:col-span-3 space-y-4">
                   <div>
                     <h3 className="text-2xl font-bold text-white mb-1">
@@ -77,11 +92,11 @@ export default function Experience() {
                       {exp.company}
                     </h4>
                   </div>
-                  
+
                   <p className="text-gray-300 leading-relaxed">
                     {exp.description}
                   </p>
-                  
+
                   <div className="flex flex-wrap gap-2">
                     {exp.skills.map((skill, skillIndex) => (
                       <span

@@ -1,5 +1,10 @@
 "use client";
-import { FaLinkedinIn, FaGithub, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import {
+  FaLinkedinIn,
+  FaGithub,
+  FaEnvelope,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 
 export default function Contact() {
   return (
@@ -11,8 +16,9 @@ export default function Contact() {
           </h2>
           <div className="w-24 h-1 bg-blue-400 mx-auto"></div>
           <p className="text-gray-400 mt-6 text-lg max-w-2xl mx-auto">
-            I&apos;m always open to discussing new opportunities, collaborations, 
-            or just having a conversation about technology and innovation.
+            I&apos;m always open to discussing new opportunities,
+            collaborations, or just having a conversation about technology and
+            innovation.
           </p>
         </div>
 
@@ -23,9 +29,10 @@ export default function Contact() {
                 Let&apos;s Connect
               </h3>
               <p className="text-gray-300 leading-relaxed mb-8">
-                Whether you&apos;re looking for a passionate developer to join your team, 
-                have a project idea you&apos;d like to collaborate on, or simply want to 
-                connect with a fellow tech enthusiast, I&apos;d love to hear from you!
+                Whether you&apos;re looking for a passionate developer to join
+                your team, have a project idea you&apos;d like to collaborate
+                on, or simply want to connect with a fellow tech enthusiast,
+                I&apos;d love to hear from you!
               </p>
             </div>
 
@@ -36,17 +43,19 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Email</h4>
-                  <p className="text-gray-400">wc435@cornell.edu</p>
+                  <p className="text-gray-400">wc467@cornell.edu</p>
                 </div>
               </div>
-              
+
               <div className="flex items-center space-x-4">
                 <div className="bg-blue-600 p-3 rounded-lg">
                   <FaMapMarkerAlt className="text-white text-xl" />
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Location</h4>
-                  <p className="text-gray-400">Ithaca, NY (Open to relocation)</p>
+                  <p className="text-gray-400">
+                    Staten Island, NY (Open to relocation)
+                  </p>
                 </div>
               </div>
             </div>
@@ -82,29 +91,33 @@ export default function Contact() {
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-gray-300">
-                  <span className="font-semibold text-white">Currently:</span> Senior at Cornell University
+                  <span className="font-semibold text-white">Currently:</span>{" "}
+                  MENG at Cornell University
                 </p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-gray-300">
-                  <span className="font-semibold text-white">Interests:</span> Computer Systems, Software Engineering
+                  <span className="font-semibold text-white">Interests:</span>{" "}
+                  Computer Systems, Software Engineering
                 </p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-gray-300">
-                  <span className="font-semibold text-white">Hobbies:</span> Chess, Board Games, Running, Pickleball
+                  <span className="font-semibold text-white">Hobbies:</span>{" "}
+                  Chess, Board Games, Running, Pickleball
                 </p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-gray-300">
-                  <span className="font-semibold text-white">Goal:</span> Creating impactful digital solutions
+                  <span className="font-semibold text-white">Goal:</span>{" "}
+                  Creating impactful digital solutions
                 </p>
               </div>
             </div>
-            
+
             <div className="mt-8 pt-6 border-t border-slate-700">
               <a
                 href="/WenChenResume25Database.pdf"
