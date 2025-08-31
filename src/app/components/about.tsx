@@ -17,11 +17,11 @@ export default function About() {
           <div className="space-y-6">
             <div className="text-gray-300 text-lg leading-relaxed space-y-4">
               <p>
-                I&apos;m a senior at Cornell University majoring in Computer
-                Science, with a passion for creating robust and dynamic web
-                applications. My expertise spans full-stack development, with
-                particular interests in computer systems and software
-                engineering.
+                I&apos;m majoring in Computer Science in the Masters of
+                Engineering Program at Cornell University, with a passion for
+                creating robust and dynamic web applications. My expertise spans
+                full-stack development, with particular interests in computer
+                systems and software engineering.
               </p>
               <p>
                 Throughout my academic journey, I&apos;ve gained extensive

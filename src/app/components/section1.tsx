@@ -18,16 +18,16 @@ function Section1() {
 
             <div className="flex justify-center mt-[10%]">
               <p className="text-[16px] text-center  text-white font-sans font-semibold break-words w-2/3">
-                Hi, I&rsquo;m Wen! I&rsquo;m a senior at Cornell University,
-                majoring in Computer Science. I&rsquo;m a passionate software
-                developer specializing in full-stack development, with extensive
-                experience building robust and dynamic web applications. Outside
-                of coding, I love playing board games like chess and Catan,
-                staying active through running, and playing pickleball.
-                I&rsquo;m always eager to learn, collaborate, and create
-                impactful digital solutions. Currently, I am interested in
-                computer systems and software engineering. Feel free to reach
-                out!
+                Hi, I&rsquo;m Wen! I&rsquo;m majoring in Computer Science in the
+                Masters of Engineering Program at Cornell University. I&rsquo;m
+                a passionate software developer specializing in full-stack
+                development, with extensive experience building robust and
+                dynamic web applications. Outside of coding, I love playing
+                board games like chess and Catan, staying active through
+                running, and playing pickleball. I&rsquo;m always eager to
+                learn, collaborate, and create impactful digital solutions.
+                Currently, I am interested in computer systems and software
+                engineering. Feel free to reach out!
               </p>
             </div>
             <div className="flex justify-center gap-x-8">

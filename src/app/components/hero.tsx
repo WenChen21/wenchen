@@ -26,9 +26,9 @@ export default function Hero() {
           </div>
 
           <p className="text-xl text-gray-400 leading-relaxed max-w-lg">
-            Senior at Cornell University passionate about full-stack development
-            and creating impactful digital solutions. Currently interested in
-            computer systems and software engineering.
+            Masters of Engineering at Cornell University passionate about
+            full-stack development and creating impactful digital solutions.
+            Currently interested in web development and software engineering.
           </p>
 
           <div className="flex items-center space-x-6 pt-4">
