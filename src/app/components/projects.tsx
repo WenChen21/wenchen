@@ -37,7 +37,7 @@ export default function Projects() {
         "TailwindCSS",
       ],
       githubUrl: "https://github.com/WenChen21/chirp",
-      liveUrl: "#",
+      liveUrl: "https://chirp-mu-three.vercel.app/",
       featured: true,
     },
     {

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaArrowLeft, FaGithub } from "react-icons/fa";
+import { FaArrowLeft, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 function Projects() {
   const projects = [
@@ -43,6 +43,7 @@ function Projects() {
         "TailwindCSS",
       ],
       githubUrl: "https://github.com/WenChen21/chirp",
+      liveUrl: "https://chirp-mu-three.vercel.app/",
       status: "Deployed",
       features: [
         "Emoji-only messaging system",
@@ -184,6 +185,17 @@ function Projects() {
                       >
                         <FaGithub />
                         <span>View Code</span>
+                      </a>
+                    )}
+                    {project.liveUrl && project.liveUrl !== "#" && (
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200"
+                      >
+                        <FaExternalLinkAlt />
+                        <span>Live Demo</span>
                       </a>
                     )}
                   </div>
