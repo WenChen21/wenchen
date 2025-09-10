@@ -8,10 +8,17 @@ export default function Navigation() {
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
-      
+
       // Update active section based on scroll position
-      const sections = ["hero", "about", "experience", "skills", "projects", "contact"];
-      const current = sections.find(section => {
+      const sections = [
+        "hero",
+        "about",
+        "experience",
+        "skills",
+        "projects",
+        "contact",
+      ];
+      const current = sections.find((section) => {
         const element = document.getElementById(section);
         if (element) {
           const rect = element.getBoundingClientRect();
@@ -58,7 +65,7 @@ export default function Navigation() {
           >
             Wen Chen
           </div>
-          
+
           <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (
               <button
@@ -77,7 +84,7 @@ export default function Navigation() {
 
           <div className="flex items-center space-x-4">
             <a
-              href="/WenChenResume25Database.pdf"
+              href="/WenChenResume.pdf"
               download
               className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 text-sm font-medium"
             >

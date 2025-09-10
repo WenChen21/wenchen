@@ -99,7 +99,7 @@ export default function Contact() {
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-gray-300">
                   <span className="font-semibold text-white">Interests:</span>{" "}
-                  Computer Systems, Software Engineering
+                  Web Development, Software Engineering, Machine Learning
                 </p>
               </div>
               <div className="flex items-start space-x-3">
@@ -120,7 +120,7 @@ export default function Contact() {
 
             <div className="mt-8 pt-6 border-t border-slate-700">
               <a
-                href="/WenChenResume25Database.pdf"
+                href="/WenChenResume.pdf"
                 download
                 className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg transition-colors duration-200 font-medium"
               >

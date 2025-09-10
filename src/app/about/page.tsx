@@ -309,7 +309,7 @@ function About() {
                 Get In Touch
               </Link>
               <a
-                href="/WenChenResume25Database.pdf"
+                href="/WenChenResume.pdf"
                 download
                 className="bg-transparent border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-6 py-3 rounded-lg transition-all duration-200 font-medium"
               >
