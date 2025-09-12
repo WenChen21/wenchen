@@ -112,10 +112,8 @@ export default function Skills() {
             <div className="flex flex-wrap justify-center gap-4">
               {[
                 "Full-Stack Development",
-                "Computer Systems",
                 "Software Engineering",
                 "Machine Learning",
-                "Database Design",
                 "Web Technologies"
               ].map((interest, index) => (
                 <span
