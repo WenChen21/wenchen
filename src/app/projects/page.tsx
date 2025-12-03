@@ -6,26 +6,26 @@ import { FaArrowLeft, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 function Projects() {
   const projects = [
     {
-      title: "Roomie - Cornell Roommate Matching",
+      title: "Legal Assistant Chatbot",
       description:
-        "A comprehensive roommate matching service tailored for Cornell students, integrating both roommate and housing search functionalities into a single platform. The backend was implemented using Supabase, Node.js, and Express.js to manage server-side logic and database operations, while the frontend was built with JavaScript, HTML, and TailwindCSS to ensure a responsive and user-friendly interface.",
-      image: "/roomie.png",
+        "A specialized AI-powered legal assistant designed to inform people who want to self-represent in NYPD cases and proceedings at the New York Office of Administrative Trials and Hearings (OATH). The application will offer general legal things to do and legal precedents for their queries. The application leverages Retrieval Augmented Generation (RAG) to provide accurate, context-aware legal information based on relevant case law and procedures.",
+      image: "/legal-assistant.png",
       technologies: [
-        "JavaScript",
-        "Node.js",
-        "Express.js",
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "OpenAI API",
         "Supabase",
-        "TailwindCSS",
-        "HTML",
       ],
-      githubUrl: "https://github.com/WenChen21/Roomie",
-      status: "In Development",
+      githubUrl: "#",
+      liveUrl: "https://legal-assistant-one-kappa.vercel.app/",
+      status: "Deployed",
       features: [
-        "User authentication and profile management",
-        "Advanced matching algorithms",
-        "Housing search integration",
-        "Real-time messaging system",
-        "Responsive mobile-first design",
+        "AI-powered legal guidance",
+        "NYPD & OATH case support",
+        "Retrieval Augmented Generation (RAG)",
+        "Context-aware responses",
+        "Relevant case law citation",
       ],
     },
     {

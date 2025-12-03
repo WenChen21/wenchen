@@ -1,25 +1,25 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { title } from "process";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 export default function Projects() {
   const projects = [
     {
-      title: "Roomie - Cornell Roommate Matching",
+      title: "Legal Assistant Chatbot",
       description:
-        "A comprehensive roommate matching service tailored for Cornell students, integrating both roommate and housing search functionalities. Features user authentication, complex database queries, and a responsive interface.",
-      image: "/roomie.png",
+        "A specialized AI-powered legal assistant designed to inform people who want to self-represent in NYPD cases and proceedings at the New York Office of Administrative Trials and Hearings (OATH). The application leverages Retrieval Augmented Generation (RAG) to provide accurate, context-aware legal information based on relevant case law and procedures.",
+      image: "/legal-assistant.png",
       technologies: [
-        "JavaScript",
-        "Node.js",
-        "Express.js",
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "OpenAI API",
         "Supabase",
-        "TailwindCSS",
-        "HTML",
       ],
-      githubUrl: "https://github.com/WenChen21/Roomie",
-      liveUrl: "#",
+      githubUrl: "#",
+      liveUrl: "https://legal-assistant-one-kappa.vercel.app/",
       featured: true,
     },
     {
@@ -157,7 +157,7 @@ export default function Projects() {
             href="/projects"
             className="inline-flex items-center space-x-2 bg-transparent border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-8 py-3 rounded-lg transition-all duration-200 font-medium"
           >
-            <span>View All Projects</span>
+            <span>Learn More About All Projects</span>
             <FaExternalLinkAlt className="text-sm" />
           </Link>
         </div>
